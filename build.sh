@@ -50,6 +50,8 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --with-mysql-sock=/var/run/mysqld/mysqld.sock \
                   --with-mysqli=mysqlnd \
                   --with-pdo-mysql=mysqlnd \
+                  --with-pgsql \
+                  --with-pdo-pgsql \
                   --with-openssl \
                   --enable-pcntl \
                   --with-pspell \
